@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_medium">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_weight="100">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/label_order_summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order Summary"
+                android:textColor="@color/social_tagg_gray_dark"
+                android:textSize="@dimen/text_large"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_standard"
+                android:background="@drawable/shape_rectangle_rounded_corners"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:text="Event Information"
+                    android:layout_marginLeft="@dimen/margin_standard"
+                    android:textColor="@color/social_tagg_gray_dark"
+                    android:textStyle="bold"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_standard"
+                    android:layout_marginTop="@dimen/margin_standard"
+                    android:paddingLeft="@dimen/padding_large"
+                    android:paddingRight="@dimen/padding_medium"
+                    >
+                    <TextView
+                        android:id="@+id/label_Event_Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Event Name"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_Event_Name_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_large"
+                        android:layout_toRightOf="@+id/label_Event_Location"
+                        android:text="Meeting"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_Event_Date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:layout_below="@+id/label_Event_Name"
+                        android:layout_alignStart="@+id/label_Event_Name"
+                        android:layout_alignLeft="@+id/label_Event_Name"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_Event_Date_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:layout_below="@+id/label_Event_Name_value"
+                        android:layout_alignStart="@+id/label_Event_Name_value"
+                        android:layout_alignLeft="@+id/label_Event_Name_value"
+                        android:text="345345543"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_Event_Time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:layout_below="@+id/label_Event_Date"
+                        android:layout_alignStart="@+id/label_Event_Date"
+                        android:layout_alignLeft="@+id/label_Event_Date"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_Event_Time_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:layout_below="@+id/label_Event_Date_value"
+                        android:layout_alignStart="@+id/label_Event_Date_value"
+                        android:layout_alignLeft="@+id/label_Event_Date_value"
+                        android:text="345345543"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_Event_Location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Event Location"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:layout_below="@+id/label_Event_Time"
+                        android:layout_alignStart="@+id/label_Event_Time"
+                        android:layout_alignLeft="@+id/label_Event_Time"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_Event_Location_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:layout_below="@+id/label_Event_Time_value"
+                        android:layout_alignStart="@+id/label_Event_Time_value"
+                        android:layout_alignLeft="@+id/label_Event_Time_value"
+                        android:text="San Jose, CA"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_rectangle_rounded_corners"
+                android:layout_marginTop="@dimen/margin_standard"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/label_Ticket_summary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginLeft="@dimen/margin_standard"
+                    android:text="Ticket Summary"
+                    android:textStyle="bold"
+                    android:textColor="@color/social_tagg_gray_dark"
+                    />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_standard"
+                    android:layout_marginTop="@dimen/margin_standard"
+                    android:paddingLeft="@dimen/padding_large"
+                    android:paddingRight="@dimen/padding_medium"
+                    >
+                    <TextView
+                        android:id="@+id/label_ticket_type_page_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ticket Type"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_ticket_quantity_page_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/margin_large"
+                        android:layout_toLeftOf="@+id/label_ticket_price_single_page_2"
+                        android:text="QTY"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_ticket_price_single_page_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_standard"
+                        android:layout_marginRight="@dimen/margin_large"
+                        android:layout_alignParentRight="true"
+                        android:text="Price"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <View
+                        android:id="@+id/line_saperator"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:layout_below="@+id/label_ticket_type_page_2"
+                        android:layout_alignEnd="@+id/label_ticket_price_single_page_2"
+                        android:layout_alignRight="@+id/label_ticket_price_single_page_2"
+                        android:background="@color/social_tagg_gray"/>
+                    <TextView
+                        android:id="@+id/label_ticket_type_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="General Admission*"
+                        android:layout_marginTop="@dimen/margin_standard"
+                        android:layout_below="@+id/label_ticket_type_page_2"
+                        android:layout_alignLeft="@+id/label_ticket_type_page_2"
+                        android:layout_alignStart="@+id/label_ticket_type_page_2"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_ticket_quantity_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:gravity="center"
+                        android:textColor="@color/social_tagg_gray"
+                        android:layout_marginTop="@dimen/margin_standard"
+                        android:layout_below="@+id/label_ticket_quantity_page_2"
+                        android:layout_alignLeft="@+id/label_ticket_quantity_page_2"
+                        android:layout_alignStart="@+id/label_ticket_quantity_page_2"
+                        android:layout_alignRight="@+id/label_ticket_quantity_page_2"
+                        android:layout_alignEnd="@+id/label_ticket_quantity_page_2" />
+                    <TextView
+                        android:id="@+id/label_ticket_price_single_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$15.00"
+                        android:gravity="center"
+                        android:textColor="@color/social_tagg_gray"
+                        android:layout_marginTop="@dimen/margin_standard"
+                        android:layout_below="@+id/label_ticket_price_single_page_2"
+                        android:layout_alignLeft="@+id/label_ticket_price_single_page_2"
+                        android:layout_alignStart="@+id/label_ticket_price_single_page_2"
+                        />
+                    <TextView
+                        android:id="@+id/label_total_page_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TOTAL"
+                        android:textColor="@color/social_tagg_gray"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/margin_large"
+                        android:layout_below="@+id/label_ticket_type_name"
+                        android:layout_alignRight="@+id/label_ticket_type_page_2"
+                        android:layout_alignEnd="@+id/label_ticket_type_page_2"
+                        />
+                    <TextView
+                        android:id="@+id/label_ticket_price_total_page_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$15.00"
+                        android:textColor="@color/social_tagg_gray"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/margin_large"
+                        android:layout_below="@+id/label_ticket_price_single_value"
+                        android:layout_alignLeft="@+id/label_ticket_price_single_page_2"
+                        android:layout_alignStart="@+id/label_ticket_price_single_page_2"
+                        />
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_standard"
+                android:background="@drawable/shape_rectangle_rounded_corners"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:text="Ticket Buyer"
+                    android:layout_marginLeft="@dimen/margin_standard"
+                    android:textColor="@color/social_tagg_gray_dark"
+                    android:textStyle="bold"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_standard"
+                    android:layout_marginTop="@dimen/margin_standard"
+                    android:paddingLeft="@dimen/padding_large"
+                    android:paddingRight="@dimen/padding_medium"
+                    >
+                    <TextView
+                        android:id="@+id/label_Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_Name_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_large"
+                        android:layout_toRightOf="@+id/label_Name"
+                        android:text="Zeel Patel"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_Email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:layout_below="@+id/label_Name"
+                        android:layout_alignStart="@+id/label_Name"
+                        android:layout_alignLeft="@+id/label_Name"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_Email_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:layout_below="@+id/label_Name_value"
+                        android:layout_alignStart="@+id/label_Name_value"
+                        android:layout_alignLeft="@+id/label_Name_value"
+                        android:text="zeel@socialtagg.com"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_standard"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:background="@drawable/shape_rectangle_rounded_corners"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_standard"
+                    android:layout_marginLeft="@dimen/margin_standard"
+                    android:text="Billing Information"
+                    android:textColor="@color/social_tagg_gray_dark"
+                    android:textStyle="bold"
+                    />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_standard"
+                    android:layout_marginTop="@dimen/margin_standard"
+                    android:paddingLeft="@dimen/padding_large"
+                    android:paddingRight="@dimen/padding_medium"
+                    >
+                    <TextView
+                        android:id="@+id/label_zip_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Billing Zip Code"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_zip_code_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/label_credit_card_4_digits_value"
+                        android:layout_alignLeft="@+id/label_credit_card_4_digits_value"
+                        android:layout_alignParentRight="true"
+                        android:text="85281"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_credit_card_4_digits"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Last 4 Digits of Credit Card"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:layout_below="@+id/label_zip_code"
+                        android:layout_alignStart="@+id/label_zip_code"
+                        android:layout_alignLeft="@+id/label_zip_code"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_credit_card_4_digits_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:layout_below="@+id/label_zip_code_value"
+                        android:layout_marginLeft="@dimen/margin_large"
+                        android:layout_toRightOf="@+id/label_credit_card_4_digits"
+                        android:layout_alignParentRight="true"
+                        android:text="4567"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_exp_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Expiration Date"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:layout_below="@+id/label_credit_card_4_digits"
+                        android:layout_alignStart="@+id/label_zip_code"
+                        android:layout_alignLeft="@+id/label_zip_code"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_exp_date_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:layout_below="@+id/label_credit_card_4_digits_value"
+                        android:layout_alignStart="@+id/label_credit_card_4_digits_value"
+                        android:layout_alignLeft="@+id/label_credit_card_4_digits_value"
+                        android:layout_alignParentRight="true"
+                        android:text="02/2015"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/label_ticket_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*This ticket is non-transferable and non-refundable"
+                android:textColor="@color/social_tagg_gray"
+                />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_standard"
+        android:layout_marginTop="@dimen/margin_standard"
+
+        >
+
+        <Button
+            android:id="@+id/button_complete_order"
+            style="@style/button_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/complete_order" />
+
+    </RelativeLayout>
+
+</LinearLayout>

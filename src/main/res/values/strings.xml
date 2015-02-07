@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- kv General -->
+    <string name="socialtagg_app_name">SocialTagg</string>
+    <string name="cancel">Cancel</string>
+    <string name="create_account">Create Account</string>
+    <string name="divider">|</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="menu_events">Events</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_profile">Profile</string>
+    <string name="title_activity_main">SocialTagg</string>
+    <string name="main_slogan">Create &amp; Manage Your Contacts Digitally</string>
+    <string name="settings">Settings</string>
+    <string name="socialtagg_support">SocialTagg Support Team</string>
+    <string name="socialtagg_support_email">support@socialtagg.com</string>
+    <string name="updating">Updating&#8230;</string>
+    <string name="version">Version</string>
+
+    <!-- kv Badge Screen -->
+    <string name="oops">Oops!</string>
+    <string name="theres_nothing_here">There\'s nothing here yet!</string>
+    <string name="create_profile_prompt">Create your personalized Badge by filling out your SocialTagg Profile</string>
+
+    <!-- kv Choose Authentication Screen -->
+    <string name="facebook">Facebook</string>
+    <string name="app_id">457892080927327</string>
+    <string name="facebook_app_secret">a8751c34ed96e7887a27fb9b4d582fd9</string>
+
+    <!-- kv Contaggs -->
+    <string name="contaggs">Contaggs</string>
+    <string name="date">date</string>
+    <string name="no_contaggs">You haven\'t created any Contaggs.\n\nScan someone else\'s badge to get started!</string>
+    <string name="export_contaggs">Export Contaggs</string>
+
+    <!-- kv Create Account Screen -->
+    <string name="account_exists">Account already exists, please sign in.</string>
+    <string name="email_invalid">Please enter a valid Email address.</string>
+    <string name="password_mismatch">Passwords don\'t match, please try again.</string>
+    <string name="password_length">Password must be at least five characters long, please try again.</string>
+    <string name="password_valid_characters">Password may only contain alphanumeric and/or special characters</string>
+
+    <!-- kv Email Validation -->
+    <string name="enter_code_prompt">Please enter validation code sent to your email %1$s.</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="verify">Verify</string>
+    <string name="invalid_code">Invalid code, please try again.</string>
+
+    <!-- Errors -->
+    <string name="error_general_network">Unable to complete request. Please check internet connection.</string>
+    <string name="error_getting_profile">Unable to retrieve profile. Please check internet connection.</string>
+    <string name="error_login_expired">Login credentials expired. Please login again.</string>
+    <string name="error_submitting_image">Unable to submit image. Please check internet connection.</string>
+    <string name="error_submitting_profile">Unable to submit profile. Please check internet connection.</string>
+    <string name="please_wait_fetching_linkedin_details">Please wait. Fetching profile&#8230;</string>
+    <string name="application_down_due_to_linkedinapiclientexception">Application down due to LinkedInApiClientException. Authokens cleared - try running application again.</string>
+    <string name="error_resetting_password">Error resetting password. Please check verification code and try again.</string>
+    <string name="error_sending_email">Error sending email. Please retry.</string>
+    <string name="error_sending_email_verification">Error sending verification email. Please retry.</string>
+    <string name="error_adding_contact">Error adding contact. Please retry.</string>
+    <string name="error_events_not_logged_in">Please log in to view events.</string>
+    <string name="error_event_not_logged_in">You must be logged in with an account to view events.</string>
+    <string name="error_finding_event">There was an error finding this event.</string>
+    <string name="error_finding_event_results">No event found.</string>
+    
+
+    <!-- kv Profile -->
+    <string name="bio">Bio</string>
+    <string name="bio_short">Short bio</string>
+    <string name="company">Company</string>
+    <string name="contact_info">Contact Information</string>
+    <string name="edit">Edit</string>
+    <string name="email">Email</string>
+    <string name="location">Location</string>
+    <string name="login_prompt_profile">You\'re currently logged out. You must login in order to create your profile.</string>
+    <string name="name_first">First Name</string>
+    <string name="name_last">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="save">Save</string>
+    <string name="title">Title</string>
+    <string name="twitter">Twitter</string>
+    <string name="your_socialtagg_profile">Your SocialTagg Profile</string>
+    <string name="email_verification">Hello %1$s!&lt;br>&lt;br>Welcome to SocialTagg!&lt;br>&lt;br>Your verification code is %2$s. Please enter this code on the verification screen in the mobile app to gain access to the app.&lt;br>&lt;br>Sincerely,&lt;br>SocialTagg Team</string>
+    <string name="email_badge">Hello %1$s,&lt;br>&lt;br>Thanks for updating your SocialTagg profile. Your profile is listed below for your printing pleasure.&lt;br>&lt;br>Sincerely,&lt;br>SocialTagg Support Team&lt;br>&lt;br>&lt;br>%2$s %3$s&lt;br>%4$s&lt;br> | %5$s&lt;br>"%6$s&lt;br>%7$s&lt;br>%8$s&lt;br>%9$s&lt;br>%10$s&lt;br>%11$s&lt;br>&lt;br>&lt;img src=\'%12$s\' alt=\'QR Code\' height=\'250\' width=\'250\' /></string>
+    <string name="email_verification_success">Verification code successfully sent to %1$s.</string>
+    <string name="at_symbol">\@</string>
+    <string name="website">Website</string>
+    <string name="welcome_to_socialtagg">Welcome to SocialTagg!</string>
+
+    <!-- kv Password Reset -->
+    <string name="reset_password">Reset Password</string>
+
+    <!-- kv Scan -->
+    <string name="contagg_added">This contagg has been added to your contaggs.</string>
+    <string name="no_profile_exists">No profile exists for that QR code. Please try again.</string>
+    <string name="msg_default_status">Place a QR code inside the viewfinder rectangle to scan it.</string>
+
+    <!-- kv Settings -->
+    <string name="login">Login</string>
+    <string name="login_prompt">You\'re currently logged out.</string>
+    <string name="logout">Logout</string>
+    <string name="logout_prompt">You\'re currently logged in as %1$s.</string>
+
+    <!-- kv Sign In -->
+    <string name="password_verify">Verify Password</string>
+    <string name="sign_in_prompt">Sign in with</string>
+    <string name="sign_in_to_social_tagg">Sign in to SocialTagg</string>
+    <string name="sign_in_to_linkedin">Sign in using LinkedIn</string>
+    <string name="sign_in_no">Or continue without login&#8230;</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activity_sign_in">Activity_sign_in</string>
+    <string name="badge">Badge</string>
+    <string name="profile">Profile</string>
+    <string name="scan">Scan</string>
+    <string name="badge_prompt">Present badge to other SocialTagg users to share your contact information.</string>
+    <string name="login_error">Email or password incorrect. Please try again.</string>
+    <string name="title_activity_activity_create_account">ActivityCreateAccount</string>
+    <string name="title_activity_activity_email_validation">ActivityEmailValidation</string>
+    <string name="verification_code_sent">An email with a verification code has been sent to </string>
+    <string name="title_activity_activity_password_reset">ActivityPasswordReset</string>
+    <string name="title_activity_activity_tos">Terms of Service</string>
+
+    <!-- kv TOS -->
+    <string name="agree">I Agree</string>
+    <string name="info_we_will_never_spam">We will never spam you or your friends.</string>
+    <string name="title_activity_activity_flyout_base">Activity Flyout Base</string>
+    <string name="title_activity_activity_test">ActivityTest</string>
+    <string name="error_exporting_contaggs">There was an error exporting your contaggs, please try
+        again.
+    </string>
+    <string name="export_email_subject">SocialTagg Contagg Export</string>
+    <string name="export_email_body">Your contaggs are attached to this message</string>
+    <string name="error_email_not_found">The email address you entered could not be found.</string>
+    
+    <!-- Intro -->
+    <string name="intro_screen_1_title">Welcome to SocialTagg</string>
+    <string name="intro_screen_1_subtitle">An easy way for people to make meaningful connections at events.</string>
+    <string name="intro_screen_2_title">Create a Unique Badge</string>
+    <string name="intro_screen_2_subtitle">Complete your Profile to generate a shareable badge.</string>
+    <string name="intro_screen_3_title">Share Contact Info with Ease</string>
+    <string name="intro_screen_3_subtitle">Let others view your Profile by scanning your badge.</string>
+    <string name="intro_screen_4_title">Manage Contacts Effortlessly</string>
+    <string name="intro_screen_4_subtitle">Keep contacts organized in the cloud and reach them with 1 click.</string>
+    
+    <!-- Progress -->
+    <string name="loading_message">Loading&#8230;</string>
+    
+    <!-- actionbar -->
+    <string name="action_scan">Scan</string>
+    <string name="action_refresh_contaggs">Refresh</string>
+    <string name="action_create_event">Create Event</string>
+    <string name="action_refresh_event_details">Refresh</string>
+    <string name="action_export_contaggs">Export Contaggs</string>
+    <string name="action_delete_contaggs">Delete Contaggs</string>
+    <string name="survey_freeform_hint">Tap to add comment...</string>
+    <string name="action_share">Share</string>
+    <string name="action_save">Save</string>
+
+    <!-- Event Details-->
+    <string name="survey_intro_format">Thank you for attending the %1$s!\n\nPlease take a moment to fill out this quick %2$s question survey</string>
+    <string name="event_description_title">Event Details</string>
+    <string name="my_event">MY EVENT</string>
+    <string name="survey_button">Take Survey</string>
+    <string name="register_button">Register</string>
+    <string name="checkin_button">Check in</string>
+    <string name="action_notes">Notes</string>
+    <string name="add_note">+ Add Note</string>
+    <string name="close_notes">Close</string>
+    <string name="registration_success">Thank you for registering!</string>
+    <string name="registration_failed">There was an error registering for this event. Please try again later.</string>
+
+    <!-- Check in-->
+    <string name="check_in_success">You are checked in!</string>
+    <string name="check_in_failed">Check-in failed. Please try again later.</string>
+    <string name="check_in_attendees">Check-In Attendees</string>
+    <string name="check_in_manual_instructions">Please fill in the attendee\'s information and tap \"Check-In\" when complete.</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_company">Company (optional)</string>
+    <string name="hint_title">Title (optional)</string>
+    <string name="hint_location">Location (optional)</string>
+    <string name="hint_email">Email</string>
+
+
+    <!-- Survey-->
+    <string name="survey_taken">Survey Taken</string>
+
+    <!-- LinkedIn-->
+    <string name="linkedin_auth_error">Your LinkedIn email address is already used for an existing SocialTagg account. Please log in using that account.</string>
+    <string name="manual_checkin_attendee_instructions">Tap on the name below to check in attendee.</string>
+    <string name="share_item">Share using...</string>
+    <string name="no_registered_attendees">There is nobody registered for this event.</string>
+
+    <!-- Payment -->
+    <string name="hint_email_address">Email Address</string>
+    <string name="hint_billing_zip_code">Billing Zip Code</string>
+    <string name="hint_credit_card_number">Credit Card Number</string>
+    <string name="hint_ccv_number">CCV Number</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="complete_order">Complete Order</string>
+    <string name="expiration_date">Expiration Date:</string>
+    <string name="see_event_details">See Event Details</string>
+
+</resources>

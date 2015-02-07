@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="@dimen/padding_medium">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/label_get_your_ticket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get your ticket for"
+                android:textColor="@color/social_tagg_gray_dark"
+                android:textSize="@dimen/text_large"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/label_socialize_with_SocialTagg_page_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Socialize with SocialTagg"
+                android:textColor="@color/social_tagg_gray_dark"
+                android:textSize="@dimen/text_large"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_rectangle"
+                android:orientation="vertical"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:layout_marginTop="@dimen/margin_standard"
+                    android:paddingLeft="@dimen/padding_large"
+                    android:paddingStart="@dimen/padding_large"
+                    android:paddingRight="@dimen/padding_medium"
+                    android:paddingEnd="@dimen/padding_medium"
+                    >
+
+                    <TextView
+                        android:id="@+id/label_ticket_quantity_page_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="1"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_multiply"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_standard"
+                        android:layout_toRightOf="@+id/label_ticket_quantity_page_1"
+                        android:text="x"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_ticket_type_page_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_standard"
+                        android:layout_toRightOf="@+id/label_multiply"
+                        android:layout_toLeftOf="@+id/label_dollar_sign_1"
+                        android:text="General Admission"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_dollar_sign_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_large"
+                        android:layout_toLeftOf="@+id/label_ticket_price_single_page_1"
+                        android:text="$"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_ticket_price_single_page_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_small"
+                        android:layout_marginRight="@dimen/margin_standard"
+                        android:text="15.56"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                </RelativeLayout>
+
+                <!--<LinearLayout-->
+                    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:weightSum="100"-->
+                    <!-->-->
+
+                    <!--<ImageView-->
+                        <!--android:id="@+id/image_creditcards"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:src="@drawable/creditcard_droid"-->
+                        <!--android:paddingLeft="@dimen/padding_large"-->
+                        <!--android:paddingRight="@dimen/padding_small"-->
+                        <!--android:layout_weight="55"-->
+                        <!--/>-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/label_total_page_1"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="TOTAL"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:paddingLeft="@dimen/padding_small"-->
+                        <!--android:paddingRight="@dimen/padding_small"-->
+                        <!--android:layout_gravity="center_vertical"-->
+                        <!--android:textColor="@color/social_tagg_gray"-->
+                        <!--android:layout_weight="20"-->
+                        <!--/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/label_dollar_sign_2"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center_vertical"-->
+                        <!--android:text="$"-->
+                        <!--android:textColor="@color/social_tagg_gray"-->
+                        <!--android:layout_weight="5"-->
+                        <!--/>-->
+                    <!--<TextView-->
+                        <!--android:id="@+id/label_ticket_price_total_page_1"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center_vertical"-->
+                        <!--android:text="total"-->
+                        <!--android:textColor="@color/social_tagg_gray"-->
+                        <!--android:layout_weight="15"-->
+                        <!--/>-->
+
+                <!--</LinearLayout>-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_standard"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:paddingLeft="@dimen/padding_large"
+                    android:paddingStart="@dimen/padding_large"
+                    android:paddingRight="@dimen/padding_medium"
+                    android:paddingEnd="@dimen/padding_medium"
+                    >
+
+                    <ImageView
+                        android:id="@+id/image_creditcards"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_toLeftOf="@+id/label_total_page_1"
+                        android:layout_toStartOf="@+id/label_total_page_1"
+                        android:src="@drawable/creditcard_droid"
+                        />
+
+                    <TextView
+                        android:id="@+id/label_total_page_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_large"
+                        android:layout_toLeftOf="@+id/label_dollar_sign_2"
+                        android:text="TOTAL"
+                        android:textStyle="bold"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_dollar_sign_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_standard"
+                        android:layout_toLeftOf="@+id/label_ticket_price_total_page_1"
+                        android:text="$"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                    <TextView
+                        android:id="@+id/label_ticket_price_total_page_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_small"
+                        android:layout_marginRight="@dimen/margin_standard"
+                        android:text="15.56"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:text="Personal Information"
+                android:textColor="@color/social_tagg_gray_dark"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:background="@drawable/shape_rectangle_rounded_corners"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/payment_enter_info_first_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_first_name"
+                    android:inputType="textPersonName|textCapWords"
+                    android:textColor="@color/social_tagg_gray_dark"
+
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/social_tagg_gray"/>
+
+                <EditText
+                    android:id="@+id/payment_enter_info_last_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_last_name"
+                    android:inputType="textPersonName|textCapWords"
+                    android:textColor="@color/social_tagg_gray_dark"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/social_tagg_gray"/>
+
+                <EditText
+                    android:id="@+id/payment_enter_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:drawablePadding="@dimen/padding_small"
+                    android:hint="@string/hint_email_address"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/social_tagg_gray_dark"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_standard"
+                android:text="Payment Information"
+                android:textColor="@color/social_tagg_gray_dark"
+                android:textStyle="bold"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:background="@drawable/shape_rectangle_rounded_corners"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/payment_enter_info_zip_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_billing_zip_code"
+                    android:inputType="number"
+                    android:textColor="@color/social_tagg_gray_dark"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/social_tagg_gray"/>
+
+                <EditText
+                    android:id="@+id/payment_enter_info_credit_card_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_credit_card_number"
+                    android:inputType="number"
+                    android:textColor="@color/social_tagg_gray_dark"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/social_tagg_gray"/>
+
+                <EditText
+                    android:id="@+id/payment_enter_info_ccv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:drawablePadding="@dimen/padding_small"
+                    android:hint="@string/hint_ccv_number"
+                    android:inputType="number|numberPassword"
+                    android:textColor="@color/social_tagg_gray_dark"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/social_tagg_gray"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:paddingLeft="@dimen/padding_medium"
+                    android:paddingRight="@dimen/padding_medium"
+                    >
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/expiration_date"
+                        android:textColor="@color/social_tagg_gray"
+                        />
+
+                    <Spinner
+                        android:id="@+id/spinner_month"
+                        android:layout_width="60sp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="false"
+                        android:layout_toRightOf="@+id/textView"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/slash"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/spinner_month"
+                        android:text="/"
+                        android:layout_marginLeft="@dimen/margin_standard"
+                        android:layout_marginRight="@dimen/margin_standard"
+                        />
+
+                    <Spinner
+                        android:id="@+id/spinner_year"
+                        android:layout_width="60sp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="false"
+                        android:layout_toRightOf="@+id/slash"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+            <Button
+                android:id="@+id/button_next_step"
+                style="@style/button_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:layout_marginTop="@dimen/margin_small"
+                android:text="@string/next" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

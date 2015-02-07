@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_large">
+
+    <TextView
+        android:id="@+id/label_thank_you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you for your order!"
+        android:textColor="@color/social_tagg_gray_dark"
+        android:textSize="@dimen/text_large"
+        android:layout_marginBottom="@dimen/margin_large"
+         />
+    <TextView
+        android:id="@+id/label_registered_to_attend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are registered to attend"
+        android:textColor="@color/social_tagg_gray_dark"
+        android:textSize="@dimen/text_large"
+        />
+    <TextView
+        android:id="@+id/label_event_name_page_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Name!"
+        android:textColor="@color/social_tagg_gray_dark"
+        android:textSize="@dimen/text_large"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/margin_large"
+        />
+    <Button
+        android:id="@+id/button_see_event_details"
+        style="@style/button_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/see_event_details"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_large"
+
+        >
+        <TextView
+            android:id="@+id/label_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order"
+            android:textColor="@color/social_tagg_gray_dark"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+        <TextView
+            android:id="@+id/label_order_number_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#1234567890"
+            android:textColor="@color/social_tagg_gray_dark"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_toRightOf="@+id/label_order"
+            />
+    </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_standard"
+            android:layout_marginTop="@dimen/margin_small"
+            android:background="@drawable/shape_rectangle_rounded_corners"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/padding_medium"
+            android:paddingTop="@dimen/padding_medium"
+            android:paddingBottom="@dimen/padding_medium"
+            >
+            <TextView
+                android:id="@+id/label_ticket_type_page_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ticket Type"
+                android:textColor="@color/social_tagg_gray"
+                />
+            <TextView
+                android:id="@+id/label_ticket_quantity_page_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_toLeftOf="@+id/label_ticket_price_single_page_3"
+                android:text="QTY"
+                android:textColor="@color/social_tagg_gray"
+                />
+            <TextView
+                android:id="@+id/label_ticket_price_single_page_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_standard"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_alignParentRight="true"
+                android:text="Price"
+                android:textColor="@color/social_tagg_gray"
+                />
+            <View
+                android:id="@+id/line_saperator"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_below="@+id/label_ticket_type_page_3"
+                android:layout_alignEnd="@+id/label_ticket_price_single_page_3"
+                android:layout_alignRight="@+id/label_ticket_price_single_page_3"
+                android:background="@color/social_tagg_gray"/>
+            <TextView
+                android:id="@+id/label_ticket_type_name_page_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="General Admission"
+                android:layout_marginTop="@dimen/margin_standard"
+                android:layout_below="@+id/label_ticket_type_page_3"
+                android:layout_alignLeft="@+id/label_ticket_type_page_3"
+                android:layout_alignStart="@+id/label_ticket_type_page_3"
+                android:textColor="@color/social_tagg_gray"
+                />
+            <TextView
+                android:id="@+id/label_ticket_quantity_number_page_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:gravity="center"
+                android:textColor="@color/social_tagg_gray"
+                android:layout_marginTop="@dimen/margin_standard"
+                android:layout_below="@+id/label_ticket_quantity_page_3"
+                android:layout_alignLeft="@+id/label_ticket_quantity_page_3"
+                android:layout_alignStart="@+id/label_ticket_quantity_page_3"
+                android:layout_alignRight="@+id/label_ticket_quantity_page_3"
+                android:layout_alignEnd="@+id/label_ticket_quantity_page_3" />
+            <TextView
+                android:id="@+id/label_ticket_price_single_value_page_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$15.00"
+                android:gravity="center"
+                android:textColor="@color/social_tagg_gray"
+                android:layout_marginTop="@dimen/margin_standard"
+                android:layout_below="@+id/label_ticket_price_single_page_3"
+                android:layout_alignLeft="@+id/label_ticket_price_single_page_3"
+                android:layout_alignStart="@+id/label_ticket_price_single_page_3"
+                />
+            <TextView
+                android:id="@+id/label_total_page_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOTAL"
+                android:textColor="@color/social_tagg_gray"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/margin_large"
+                android:layout_below="@+id/label_ticket_type_name_page_3"
+                android:layout_alignRight="@+id/label_ticket_type_page_3"
+                android:layout_alignEnd="@+id/label_ticket_type_page_3"
+                />
+            <TextView
+                android:id="@+id/label_ticket_price_total_page_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$15.00"
+                android:textColor="@color/social_tagg_gray"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/margin_large"
+                android:layout_below="@+id/label_ticket_price_single_value_page_3"
+                android:layout_alignLeft="@+id/label_ticket_price_single_page_3"
+                android:layout_alignStart="@+id/label_ticket_price_single_page_3"
+                />
+
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/label_confirmation_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A confirmation email has been sent to"
+        android:textColor="@color/social_tagg_gray_dark"
+        />
+    <TextView
+        android:id="@+id/label_confirmation_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email@domail.com."
+        android:textColor="@color/social_tagg_gray_dark"
+        android:layout_marginBottom="@dimen/margin_large"
+        />
+
+
+</LinearLayout>

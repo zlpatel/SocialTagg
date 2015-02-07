@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="social_tagg_blue">#2dbffd</color>
+    <color name="social_tagg_gray">#5e5e5e</color>
+    <color name="social_tagg_gray_dark">#484848</color>
+    <color name="social_tagg_gray_light">#e9e9e9</color>
+    <color name="social_tagg_green">#08a601</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#7F000000</color>
+    <color name="dark_sky_blue">#06a7ec</color>
+    <color name="darker_gray">#363636</color>
+    <color name="button_gray">#AAAAAA</color>
+</resources>
